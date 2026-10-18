@@ -1,0 +1,20 @@
+# doc-legacy-extract (老版 Word .doc 正文提取方法包)
+
+> 提取老版 Word .doc（OLE 复合文档）正文文本的可靠方法——仅依赖 olefile，零第三方重型库，可读 NMPA 等官网发布的法规附件 .doc，并按中文「第 X 条」结构切分。
+
+`doc-legacy-extract` 是一个遵循 Agent Skills 规范的技能发布包，分类：document-processing，版本 1.0.0。可放入主流 AI Agent 的技能目录直接加载。
+
+## 核心
+
+- [SKILL.md](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/SKILL.md): 技能主文件（YAML frontmatter + 全量方法与触发词）
+- [manifest.json](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/manifest.json): 技能元数据（名称 / 版本 / 许可 / 描述）
+- [README.md](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/README.md): 项目说明与快速开始
+
+## 可选
+
+- [README.en.md](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/README.en.md): 英文版说明
+- [AGENTS.md](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/AGENTS.md): 给 AI Agent 的工作指引
+- [llms-full.txt](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/llms-full.txt): 完整文本（供长上下文模型）
+- [SECURITY.md](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/SECURITY.md): 安全策略
+- [CONTRIBUTING.md](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/CONTRIBUTING.md): 贡献指南
+- [LICENSE](https://github.com/zhaoxinghua09-cell/doc-legacy-extract/blob/main/LICENSE): MIT 许可
